@@ -1,0 +1,18 @@
+{
+  "name": "gemma2-2b-ollama-function-calling",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.2.22",
+    "@langchain/ollama": "^0.0.2",
+    "install": "^0.13.0",
+    "langchain": "^0.2.12",
+    "npm": "^10.8.2"
+  }
+}
